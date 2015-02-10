@@ -23,8 +23,9 @@ So, for each word, we store - its overall frequency, alongwith the its line numb
 Our task is to build this index when the programme starts and then search the list of keywords passed through the commandline and outputting only the documents which contain all those keywords. E.g. in above example, if the keywords are 'practice perfect' you'd output only D2
 Moreover, when the program ends, it stores this index in a file. During the next run if the file is present, it would load the index in memory through that file instead of building it again
 
-(optional) - You can also provide a 'ignore' file which has common verbs and english constructs such as 'of,this,are' and so on for which index building doesn't help much
-----------------------------------------------
+optional - You can also provide a 'ignore' file which has common verbs and english constructs such as 'of,this,are' and so on for which index building doesn't help much
+
+-----------------------------------------------
 
 INPUT :
 
